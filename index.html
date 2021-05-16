@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>estra</title>
-   <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <header class="header">
     <h1 class="header-ttl">
       <a href="index.html">
-      <img src="img/estra_logo.png" alt="次へ">
+        <img src="img/estra_logo.png" alt="次へ">
       </a>
     </h1>
     <nav class="header-nav">
       <ul class="header-nav-list">
-        <li class="header-nav-item"><a href="">News</a></li>
-        <li class="header-nav-item"><a href="">About</a></li>
-        <li class="header-nav-item"><a href="">Service</a></li>
-        <li class="header-nav-item"><a href="">Blog</a></li>
-        <li class="header-nav-item"><a href="">Company</a></li>
-        <li class="header-nav-item"><a href="">Content</a></li>
+        <li class="header-nav-item"><a href="#news">News</a></li>
+        <li class="header-nav-item"><a href="#about">About</a></li>
+        <li class="header-nav-item"><a href="#service">Service</a></li>
+        <li class="header-nav-item"><a href="#blog">Blog</a></li>
+        <li class="header-nav-item"><a href="#company">Company</a></li>
+        <li class="header-nav-item"><a href="#content">Content</a></li>
       </ul>
     </nav>
   </header>
@@ -33,16 +35,17 @@
 
   <div class="firstview">
     <img class="firstview-img" src="img/firstview.jpg">
-      <h1 class="firstview-msg">Commit to the <em>growth</em><br>for everyone
-      </h1>
-      <h2 class="firstview-msg2">全ての人の<em>成長</em>にコミットする</h2>
-      <p class="firstview-msg3">Educacional Technology Company<br>estra inc sinse 2019</p>
+    <h1 class="firstview-msg">Commit to the <em>growth</em><br>for everyone
+    </h1>
+    <h2 class="firstview-msg2">全ての人の<em>成長</em>にコミットする</h2>
+    <p class="firstview-msg3">Educacional Technology Company<br>estra inc sinse 2019</p>
   </div>
 
-  <div class="news">
+  <div class="news" id="news">
     <h1 class="news-ttl">News</h1>
     <h2 class="news-heading">新着情報</h2>
     <ul class="news-ul">
+      <li class="news-border-top"></li>
       <li class="news-list">
         <div class="news-day">2021/01/01
         </div>
@@ -69,11 +72,47 @@
         <div class="news-label">ニュース</div>
         <div class="news-text">COACHTECHのサービスが開始されました。</div>
       </li>
+      <li class="news-border-bottom"></li>
     </ul>
   </div>
 
+  <div class="about" id="about">
+    <h1 class="about-ttl">About</h1>
+    <h2 class="about-heading">Technoligy ×　Coaching</h2>
+    <div class="about-doc">
+      <p>株式会社estraはデジタル化が遅れている教育業界に<br>最新のテクノロジーを導入することによって教育の<br>DXを実現します。<br><br>
+        独自のオペレーションとコーチングを融合した新しい<br>教育の仕組みにより、一人ひとりに合わせた適切な教<br>育を提供します。</p>
+      <img class="about-img" src="img/about.jpg">
+    </div>
+  </div>
+
+  <div class="service" id="service">
+    <h1 class="service-ttl">Service</h1>
+    <h2 class="service-heading">サービス内容</h2>
+
+    <div class="service-grid">
+      <div class="service-box1">
+        <img src="img/service__first.svg">
+        <h3>教育事業</h3>
+        <p>サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
+      </div>
+      <div class="service-box2">
+        <img src="img/service__first.svg">
+        <h3>教育事業</h3>
+        <p>サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
+      </div>
+      <div class="service-box3">
+        <img src="img/service__first.svg">
+        <h3>教育事業</h3>
+        <p>サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
+      </div>
+    </div>
+
+
+  </div>
   <footer class="footer">
     フッター
   </footer>
 </body>
+
 </html>
