@@ -166,6 +166,7 @@ em{
   grid-template-columns: 1fr 1fr;
   width: 70%;
   margin: 0 auto;
+  margin-bottom:100px ;
 }
 
 
@@ -198,6 +199,7 @@ em{
   grid-row: 1/2;
   background: #a34b77;
   color: white;
+  display: flex;
 }
 
 .service-box3 {
@@ -205,6 +207,7 @@ em{
   grid-row: 2/3;
   background: #967686;
   color: white;
+  display: flex;
 }
 
 .service-box2 img,.service-box3 img{
@@ -213,3 +216,180 @@ em{
   width: 30%;
 }
 
+.service-text{
+  padding-top: 50px;
+  padding-right: 40px;
+}
+
+.service-box2 h3,.service-box3 h3{
+  padding:10px 0;
+}
+
+.blog-card-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.blog{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(241, 241, 241);
+  margin:100px 0;
+}
+
+.blog-ttl,.blog-heading{
+  width: 70%;
+  margin: 0 auto;
+  font-size:30px;
+  padding:10px
+}
+
+
+.blog-card{
+ position: relative;
+ padding: 0 20px;
+}
+
+.blog-card-img img{
+  width: 300px;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  
+}
+.blog-card-img{
+}
+
+.blog-card-cat{
+  position: absolute;
+  background-color:rgb(226, 43, 128);
+  padding:10px;
+  color: white;
+  top:0;
+  left:20px;
+  border-radius: 10px 0 0 0;
+  
+}
+
+ .blog-card-textbox{
+   background-color: white;
+   width: 300px;
+   height:auto;
+   box-sizing:border-box;
+   padding: 20px;
+   border-radius: 0 0 10px 10px;
+ }
+
+.blog-card-date{
+  display: inline-block;
+  font-size:15px;
+  margin-top:50px;
+}
+
+.blog-card-date2{
+  display: inline-block;
+  font-size:15px;
+  padding-left:40px;
+}
+
+.blog-btn{
+  width: 200px;
+  padding: 20px 10px;
+  background-color: #fff;
+  color:rgb(226, 43, 128);
+  text-align: center;
+  margin:50px auto 50px;
+  display:block;
+  border: solid 2px  rgb(226, 43, 128);
+  border-radius:30px;
+}
+
+.company-ttl,.company-heading{
+  width: 60%;
+  margin: 0 auto;
+  font-size:30px;
+  padding:10px
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 30px auto 50px;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+table th {
+  font-weight: bold;
+  background-color: rgb(241, 241, 241);
+  text-align: left;
+  padding-left:20px;
+  width:250px;
+}
+
+.company-img{
+  display: flex;
+}
+
+.company-recruit img,.company-interview img{
+  width:725px;
+}
+
+.company-recruit{
+  position: relative;
+}
+
+.company-recruit-text{
+  position: absolute;
+  top:50px;
+  left:50px;
+}
+
+.contact-text{
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  padding-top: 50px;
+}
+
+.contact-line{
+  margin: 20px 50%;
+  width: 3px;
+  height: 50px;
+  background-color: rgb(226, 43, 128);
+}
+
+.contact-button{
+  width: 250px;
+  padding: 30px 0;
+  color: #fff;
+  border-radius: 40px;
+  background: linear-gradient(90deg, rgb(226, 43, 128), rgb(170, 29, 95));
+  text-align: center;
+  box-shadow: 0 8px 0 rgb(117, 20, 66);
+  margin:30px auto 50px;
+  display:block;
+  position: relative;
+}
+
+.contact-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  background: url(/img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.footer{
+  background-color:rgb(241, 241, 241) ;
+
+}
+
+.footer p{
+  text-align: center;
+  padding: 20px;
+}
