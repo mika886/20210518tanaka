@@ -335,16 +335,38 @@ table th {
 .company-recruit img,.company-interview img{
   width:725px;
 }
-
 .company-recruit{
-  position: relative;
+  position:relative
 }
 
+.company-recruit h2{
+  position:absolute;
+  font-size: 30px;
+  color: white;
+  top:50%;
+  left: 40%;
+}
+
+
 .company-recruit-text{
-  position: absolute;
   top:50px;
   left:50px;
 }
+
+.company-interview{
+  position:relative;
+}
+
+.company-interview h2{
+  position:absolute;
+  font-size: 30px;
+  color: white;
+  top:50%;
+  left: 40%;
+}
+
+
+
 
 .contact-text{
   text-align: center;
@@ -373,12 +395,12 @@ table th {
   position: relative;
 }
 
-.contact-button::before {
+.contact-button::before{
   content: "";
   position: absolute;
-  top: 50%;
-  right: 15px;
-  background: url(/img/mailicon.svg) no-repeat;
+  top: 30%;
+  left: 30px;
+  background: url(../img/mailicon.svg) no-repeat;
   background-size: cover;
   width: 30px;
   height: 30px;
