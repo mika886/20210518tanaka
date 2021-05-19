@@ -228,6 +228,7 @@ em{
 .blog-card-flex{
   display: flex;
   justify-content: center;
+  
 }
 
 .blog{
@@ -248,6 +249,7 @@ em{
 .blog-card{
  position: relative;
  padding: 0 20px;
+ 
 }
 
 .blog-card-img img{
@@ -330,11 +332,21 @@ table th {
 
 .company-img{
   display: flex;
+  justify-content: center;
+  
 }
 
-.company-recruit img,.company-interview img{
-  width:725px;
+.company-recruit img{
+  width:110%;
+  margin:0 0 40px;
 }
+
+
+.company-interview img{
+ width:100%;
+ margin:0 40px;
+}
+
 .company-recruit{
   position:relative
 }
