@@ -332,19 +332,16 @@ table th {
 
 .company-img{
   display: flex;
-  justify-content: center;
   
 }
 
 .company-recruit img{
-  width:110%;
-  margin:0 0 40px;
+  width:50vw;
 }
 
 
 .company-interview img{
- width:100%;
- margin:0 40px;
+ width:50vw;
 }
 
 .company-recruit{
@@ -356,7 +353,7 @@ table th {
   font-size: 30px;
   color: white;
   top:50%;
-  left: 40%;
+  left:40%;
 }
 
 
@@ -374,7 +371,7 @@ table th {
   font-size: 30px;
   color: white;
   top:50%;
-  left: 40%;
+  left:35%;
 }
 
 
